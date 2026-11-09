@@ -1,6 +1,6 @@
 ---
 name: kingshot-translator
-description: แปลแชทเกม Kingshot ระหว่างผู้ใช้ (ผู้หญิงไทย) กับเพื่อน (มีทั้งชายและหญิง) ชาวอังกฤษ ไต้หวัน และเกาหลี Use whenever the user pastes Thai text to send to game friends (translate Thai → English, Traditional Chinese (Taiwan), Korean, each in its own copy-ready block, plus a Thai back-translation), or pastes / screenshots chat in English, Chinese or Korean (translate → Thai). Triggers on Kingshot, in-game chat, alliance chat, แปล, แปลให้เพื่อน, แคปแชท, screenshots of game chat, or any bare message in Thai, English, 中文 or 한국어 with no other instruction.
+description: ALWAYS use this skill for EVERY translation request from this user, even short or simple ones — never answer a translation directly without it. Covers any message starting with "แปล", "translate", "ส่งให้", "ตอบ", any bare Thai text to send to friends, any text or screenshot in English, 中文 or 한국어, and any Kingshot game chat. User is a Thai woman chatting in the game Kingshot with close friends (English, Taiwanese, Korean). Output Thai → English + 繁體中文 + 한국어 in separate copy-ready code blocks with Thai back-translation, faithful with no added wording or alternative "romantic/softer" versions; or foreign text/screenshots → Thai.
 ---
 
 # Kingshot Chat Translator
@@ -18,6 +18,8 @@ description: แปลแชทเกม Kingshot ระหว่างผู้
 4. **คงชื่อคน ชื่อพันธมิตร ตัวเลข พิกัด เวลา ไว้ตรงตัว** (เช่น `X:512 Y:330`, `20:00 UTC`, `[ABC]`)
 5. ถ้าประโยคกำกวมจนแปลได้หลายแบบ ให้เลือกความหมายที่ใกล้ที่สุด แล้ว **บอกในหมายเหตุ** แทนที่จะเดาเงียบ ๆ
 6. ถ้าคำไหนแปลตรงตัวไม่ได้จริง ๆ (สำนวนไทย มุกเฉพาะ) ให้แปลความหมายให้ใกล้ที่สุด และอธิบายในหมายเหตุว่าปรับตรงไหน
+7. **ห้ามเสนอเวอร์ชันอื่น** เช่น "แบบโรแมนติกกว่า" "แบบนุ่มกว่า" "Other options" — ให้คำแปลเดียวที่ตรงที่สุดต่อภาษา (เสนอทางเลือกได้เฉพาะในหมายเหตุ ⚠️ เมื่อประโยคกำกวมจริง ๆ)
+8. **ต้องแปลครบทั้ง 3 ภาษาทุกครั้ง** (English, 繁體中文, 한국어) เว้นแต่ผู้ใช้ระบุชื่อเพื่อนหรือภาษาเดียว — แม้ประโยคจะสั้นมากก็ตาม
 
 ## เรื่องเพศและระดับภาษา
 
